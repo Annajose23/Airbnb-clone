@@ -4,7 +4,7 @@ function Banner() {
     return (
         <div className="relative h-[300px] sm:h-[400px] lg:[500px] xl:[600px] 2xl:[700px]">
             <Image
-            src="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+            src="https://links.papareact.com/0fm"
             layout="fill"
             objectFit="cover"/>
             <div className="absolute top-1/2 w-full text-center">
