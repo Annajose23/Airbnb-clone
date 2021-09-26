@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import 'mapbox-gl/dist/mapbox-gl.css';
 import React from 'react'
 import '../styles/global.css' 
 import ProgressBar from "@badrap/bar-of-progress"

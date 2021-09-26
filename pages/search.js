@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 import { useRouter } from "next/dist/client/router"
 import format from 'date-fns/format'
 import InfoCard from "../components/InfoCard"
+import Map from "../components/Map"
 
 function Search({searchResults}) {
     const router = useRouter();
@@ -38,6 +39,9 @@ function Search({searchResults}) {
                     ))}
                     </div>
                 </section>
+                {/* <section className="min-w-[600px]">
+                    <Map/>
+                </section> */}
             </main>
             <Footer/>
         </div>
